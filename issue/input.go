@@ -3,7 +3,8 @@ package issue
 import (
 	"fmt"
 
-	"example.com/agent"
+	"example.com/agent/agent"
+	"example.com/agent/query"
 )
 
 func Issue_input(agents []agent.Agent) {
@@ -22,6 +23,6 @@ func Issue_input(agents []agent.Agent) {
 		fmt.Printf("Enter the issue selection mode(1 for available, 2 for least busy(highest available since), 3 for random): ")
 		fmt.Scan(&query_mode)
 
-		Query(agents, roles, query_mode)
+		query.Query(agents, roles, query_mode)
 	}
 }

@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"example.com/agent"
-	"example.com/issue"
+	"example.com/agent/agent"
+	"example.com/agent/issue"
 )
 
 func main() {

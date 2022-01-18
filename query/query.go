@@ -1,11 +1,11 @@
-package issue
+package query
 
 import (
 	"fmt"
 	"math/rand"
 	"strings"
 
-	"example.com/agent"
+	"example.com/agent/agent"
 )
 
 func contains(roles []string, role string) bool {
